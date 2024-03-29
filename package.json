@@ -1,0 +1,20 @@
+{
+    "name": "grupo4-candyshop",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node index.js",
+        "test": "nodemon index.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "method-override": "^3.0.0",
+        "mysql2": "^3.9.3",
+        "sequelize": "^6.37.1",
+        "sequelize-cli": "^6.6.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0",
+        "@faker-js/faker": "^8.4.1"
+    }
+}
