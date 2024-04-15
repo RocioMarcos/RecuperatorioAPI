@@ -230,7 +230,7 @@ const cancionesController = {
                 /* Comprobar campos de body a modificar */
                 var titulo_Valor = valoresPrevios.titulo;
                 if(req.body.titulo){
-                    tituloValor = req.body.titulo;
+                    titulo_Valor = req.body.titulo;
                 }
 
                 var duracion_Valor = valoresPrevios.duracion;
